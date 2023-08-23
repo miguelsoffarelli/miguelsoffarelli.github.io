@@ -1,216 +1,47 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+</head>
+<body>
     
-    <head>
-        <title>Portafolio</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width; initial-scale=1.0">
-        <link rel="stylesheet" href="estilos.css">
-    </head>
+    <div id="background">
+        <div class="container">
+            <div class="row mb">
+                <div class="column">
+                    <a href="http://github.com/miguelsoffarelli" class="logo" target="_blank">M</a>
+                    <h1 class="header">Miguel Soffarelli</h1>
+                    <h2>Web Developer</h2>
+                </div>
+            </div>
 
-    <body>
-        
-        <div class="encabezado">
+            <div class="list row">
+                <div class="one-half column">
+                    <h1>Languages</h1>
+                    <ul>
+                        <li>HTML</li>
+                        <li>JavaScript</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
 
-            <h1 id="titulo">Miguel Soffarelli</h1>
-            
-            <br>
-
-            <p class="introduccion">Mis intereses son muy variados, lo que me llevó a pasar varios años saltando de carrera en carrera en búsqueda de mi
-                vocación. Hasta que me di cuenta de que para que un campo sea mi vocación, además de interesarme, debía apasionarme, y si hay algo que 
-                desde temprana edad me apasiona, es todo lo relacionado a la tecnología. Y aunque recién estoy dando mis primeros pasos en el sector, estoy 
-                ansioso por aprender lo más posible y poner en marcha esos conocimientos. 
-            </p>
-
+                <div class="one-half column">
+                    <h1>Github Repositories</h1>
+                    <ul>
+                        <li><a href="https://github.com/miguelsoffarelli/taller-eventos" target="_blank">Event Listeners Practice</a></li>
+                        <li><a href="https://github.com/miguelsoffarelli/taller-arrays" target="_blank">Arrays Practice</a></li>
+                        <li><a href="https://github.com/miguelsoffarelli/proyectofinal-grupo2" target="_blank">JAP e-Commerce Group Project</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+    </div>
 
-        <br>
-        <hr>
-        <br>
-
-        <div class="lista">
-
-            <ul id="indice">
-                <li><a href="#exp">Experiencia Laboral</a></li>
-                <li><a href="#habilidades">Habilidades y Conocimientos</a></li>
-                <li><a href="#educacion">Educación</a></li>
-                <li><a href="#sociales">Perfiles Sociales</a></li>
-                <li><a href="#contacto">Contactar</a></li>
-            </ul>
-
-        </div>
-
-        <br>
-        
-        <br>
-
-        <div class="tabla">
-            <h2 id="exp">Experiencia Profesional</h2><br>
-            <table id="tabla-exp">
-                <thead>
-                    <tr>
-                        <th>Empresa/Organización</th>
-                        <th>Cargo</th>
-                        <th>Localización</th>
-                        <th>Desde-Hasta</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Emprendimiento familiar</td>
-                        <td>Delivery</td>
-                        <td>Sarandi del Yi</td>
-                        <td>Agosto 2011 - Noviembre 2019</td>
-                    </tr>
-                    <tr>
-                        <td>Emprendimiento familiar</td>
-                        <td>Atención al cliente</td>
-                        <td>Sarandi del Yi</td>
-                        <td>Agosto 2011 - Noviembre 2019</td>
-                    </tr>
-                    <tr>
-                        <td>Emprendimiento familiar</td>
-                        <td>Asistente en administración</td>
-                        <td>Sarandi del Yi</td>
-                        <td>Noviembre 2019 - Marzo 2023</td>
-                    </tr>
-                </tbody>
-
-            </table>
-        </div>
-
-        <br>
-        
-        <hr>
-        
-        <br>
-
-        <div class="lista">
-
-            <h2 id="habilidades">Habilidades y conocimientos</h2><br>
-
-            <ul>
-               <li><strong>Desarrollo Web</strong></li>
-               <ul>
-                <li>Javascript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-               </ul> 
-            </ul>
-        </div>
-
-        <br>
-        
-        <hr>
-        
-        <br>
-
-        <div class="tabla">
-
-            <h2 id="educacion">Educación</h2><br>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Carrera</th>
-                        <th>Entidad</th>
-                        <th>Desde-Hasta</th>
-                        <th>Completada Si|No|Cursando</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Bachillerato Orientación Economía</td>
-                        <td>Liceo Dr. Francisco Ríos</td>
-                        <td>2014-2015</td>
-                        <td>Si</td>
-                    </tr>
-                    <tr>
-                        <td>Licenciatura en TI</td>
-                        <td>UTEC Durazno</td>
-                        <td>2018-2019</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>Tecnólogo en Administración y Contabilidad</td>
-                        <td>UDELAR Tacuarembó</td>
-                        <td>2020-2022</td>
-                        <td>No</td>
-                    </tr>
-                    <tr>
-                        <td>Desarrollo web</td>
-                        <td>Plan Ceibal (Jóvenes a Programar)</td>
-                        <td>2023</td>
-                        <td>Cursando</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="lista">
-
-            <h2 id="sociales">Perfiles Sociales</h2>
-            <img src="./4187336.png" alt="Perfiles Sociales" id="imagen">
-            
-            <br>
-
-            <p>También puedes encontrarme en: </p><br>
-
-            <ul>
-                <li><a href="http://www.instagram.com/miguelsoffarelli" target="_blank">Instagram</a></li>
-                <li><a href="http://www.facebook.com/miguelsoffarelli" target="_blank">Facebook</a></li>
-            </ul>
-
-        </div>
-
-        <br>
-        <hr>
-        <br>
-
-        <div class="contactar">
-
-            <h2 id="contacto">Contactar</h2>
-            
-            <br>
-
-            <form id="formulario" method="post">
-
-                <label for="destinatario">Para: <input type="text" id="destinatario"></label>
-                
-                <br><br>
-                
-                <label for="tema">Temática: 
-                    <select name="tematica" id="tema">
-                        <option value="consulta">Consulta</option>
-                        <option value="propuesta">Propuesta</option>
-                        <option value="reporte">Reporte</option>
-                        <option value="otro">Otro</option>
-                    </select>
-                </label>
-                
-                <br><br>
-                
-                <label for="asunto">Asunto: <input type="text" id="asunto"></label>
-                
-                <br><br>
-                
-                <label for="cuerpo">Cuerpo: <br><textarea name="cuerpo" id="cuerpo" cols="40" rows="8" placeholder="Deje su mensaje aquí..."></textarea></label>
-                
-                <br><br>
-                
-                <label for="enviar"><input type="submit" name="enviar" id="enviar"></label>
-
-                <br><br>
-
-                
-            </form>
-
-        </div>
-
-
-    </body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.0.0/particles.min.js"></script>
+    <script src="index.js"></script>
+</body>
 </html>
